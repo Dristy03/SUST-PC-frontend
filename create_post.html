@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="create_post.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>SUST Programming Community</title>
+    <link rel="icon" type="image/png" href="images/SUST.png" />
+    <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+
+
+    <link href="https://cdn.quilljs.com/1.0.0/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light stroke scrolling-navbar mx-3">
+
+        <a class="navbar-brand" href="#"><img class="mr-2 " alt=""><strong>SUST<span
+                    class="text-warning">PC</span></strong> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <form class="form-inline justify-content-between ml-auto ">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item avatar">
+                    <a class="nav-link p-0" href="#">
+                        <img src="images/1.jpg" class="rounded-circle z-depth-0" alt="avatar image" height="35">
+                    </a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link text-warning" href="profile.html"><strong>Mary Liam</strong></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Resources</a>
+                </li>
+                <li class="nav-item notifications dropdown active">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Notification
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
+                        aria-labelledby="navbarDropdownMenuLink-55">
+
+                        <p class="ml-3 text-warning">Recent Notifications</p>
+                        <a class="dropdown-item" href="#">
+
+                            <div class="media">
+                                <img src="images/2.jpg" width="36" height="36" class="rounded-circle mr-2"
+                                    alt="Marie Salter">
+                                <div class="media-body">
+                                    <strong>Jackson Smith</strong> posted a new post
+                                    <br>
+                                    <small class="text-muted">11 May, 2021 02:35pm</small>
+                                </div>
+                            </div>
+
+
+                        </a>
+                        <hr>
+                        <a class="dropdown-item" href="#">
+                            <div class="media">
+                                <img src="images/1.jpg" width="36" height="36" class="rounded-circle mr-2"
+                                    alt="Mary Liam">
+                                <div class="media-body">
+                                    <strong>Mary Liam</strong> posted a new post
+                                    <br>
+                                    <small class="text-muted">10 May, 2021 10:02am</small>
+                                </div>
+                            </div>
+                        </a>
+                        <hr>
+                        <a class="dropdown-item" href="#">
+                            <div class="media">
+                                <img src="images/1.jpg" width="36" height="36" class="rounded-circle mr-2"
+                                    alt="Mary Liam">
+                                <div class="media-body">
+                                    <strong>Mary Liam</strong> posted a new post
+                                    <br>
+                                    <small class="text-muted">10 May, 2021 10:02am</small>
+                                </div>
+                            </div>
+                        </a>
+                        <hr>
+                        <a class="dropdown-item" href="#">
+                            <div class="media">
+                                <img src="images/1.jpg" width="36" height="36" class="rounded-circle mr-2"
+                                    alt="Mary Liam">
+                                <div class="media-body">
+                                    <strong>Mary Liam</strong> posted a new post
+                                    <br>
+                                    <small class="text-muted">10 May, 2021 10:02am</small>
+                                </div>
+                            </div>
+                        </a>
+                        <hr>
+                        <a class="dropdown-item" href="#">
+                            <div class="media">
+                                <img src="images/1.jpg" width="36" height="36" class="rounded-circle mr-2"
+                                    alt="Mary Liam">
+                                <div class="media-body">
+                                    <strong>Mary Liam</strong> posted a new post
+                                    <br>
+                                    <small class="text-muted">10 May, 2021 10:02am</small>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a class="float-right mr-4 fs-6" href="#">View All</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h4 class="text-warning mb-0"><strong>Create a post</strong>
+        </h4>
+        <small>Share with us any problem you face, any knowledge you want to spread out in the community or inform us
+        about workshops and contests</small>
+
+        <br>
+        <br>
+        <div id="editor-container">
+        </div>
+        <div class="text-right mt-4">
+            <button class="btn btn-secondary btn-md px-3 my-0 mr-0">Cancel<i class="fas fa-ban pl-2"></i></button>
+            <button class="btn btn-warning btn-md px-3 my-0 mr-0">Post<i class="fas fa-paper-plane pl-2"></i></button>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var quill = new Quill('#editor-container', {
+            modules: {
+                toolbar: [
+                    [{ 'font': [] }],
+                    [{ header: [1, 2, false] }],
+                    ['bold', 'italic', 'underline'],
+                    ['image', 'blockquote', 'code-block'],
+                    [{ 'color': [] }]
+
+                ]
+            },
+            placeholder: 'Compose a post...',
+            theme: 'snow'
+        });
+
+
+    </script>
+
+</body>
+
+
+</html>
