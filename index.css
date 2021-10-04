@@ -5,3 +5,11 @@
 
   }
 
+  .brighter-span {
+    filter: brightness(110%);
+  }
+
+  .bg {
+    background-color: #FFD863;
+    filter: brightness(110%)
+  }
